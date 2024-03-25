@@ -49,10 +49,17 @@ header{
 }
 .list{
     list-style-type: none;
+    font-size: 30px; 
+    margin-top: 5px;
+}
+.list li{
+    display: inline-block;
     
 }
 .link{
     text-decoration-line:none ;
+    color:white;
+
 }
 
 .heart{
