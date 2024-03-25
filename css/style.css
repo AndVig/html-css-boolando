@@ -10,6 +10,7 @@
 }
 .content{
     position:relative;
+    padding-bottom: 90px;
 }
 .content img{
     width: 100%;
@@ -57,7 +58,32 @@
 .old-price{
     text-decoration-line:line-through;
 }
+.perc-label{
+    z-index: 4;
+    position: absolute;
+    left: 0;
+    bottom: 130px;
+    background-color: red;
+    color: white;
+    width: fit-content;
+    padding: 10px;
+}
+.sust-label{
+    z-index: 4;
+    position: absolute;
+    bottom: 130px;
+    left: 62px;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    width: fit-content;
+}
+.desc-label{
+    position: absolute;
+    bottom: 35px;
+    
 
+}
 .z2{
     z-index: 3;
     position: relative;
@@ -71,4 +97,7 @@
 }
 .z2:hover{
     z-index: 1;
+}
+.lone{
+    left: 0;
 }
