@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.content{
+    height: 300px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.col100{
+    width: 100%;
+    
+}
+.col33{
+    margin: 10px;
+    max-width: calc(100%/3 -20px);
+}
+
+.marca{
+    font-size: 15px;
+    font-weight: 100;
+    text-align: left;
+}
+.product{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+}
+.new-price{
+    color: red;
+    font-size: 15px;
+}
+.old-price{
+    text-decoration-line:line-through;
+}
+
