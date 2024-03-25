@@ -9,8 +9,10 @@
     margin: 0 auto;
 }
 .content{
-    height: 300px;
     position:relative;
+}
+.content img{
+    width: 100%;
 }
 .row{
     display: flex;
@@ -23,8 +25,8 @@
     
 }
 .col33{
-    margin: 40px;
-    max-width: calc(100% /3 -20px);
+    margin: 10px;
+    width: calc(100% /3 - 20px);
 }
 .heart{
     position: absolute;
